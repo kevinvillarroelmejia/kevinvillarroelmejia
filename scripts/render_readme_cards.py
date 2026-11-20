@@ -14,6 +14,9 @@ JavaScript ni fuentes externas). Todo se apaga con prefers-reduced-motion.
     STATIC=1 python scripts/render_readme_cards.py  # estado final, para revisar
 """
 import base64
+import glob
+import hashlib
+import re
 import datetime as dt
 import json
 import os
@@ -460,10 +463,27 @@ def main():
     }
     for i, (k, label, fname) in enumerate(KEYS):
         out[fname] = key(k, label, i)
+    # GitHub sirve las imágenes del README con caché (y su redirección a
+    # raw.githubusercontent.com quita el ?v=), así que cada versión se guarda
+    # con un nombre nuevo: hero-<hash>.svg. Se borran las versiones viejas y
+    # se actualizan los enlaces del README.
+    for old in glob.glob(os.path.join(CARDS, "*.svg")):
+        os.remove(old)
+    names = {}
     for name, content in out.items():
-        with open(os.path.join(CARDS, name), "w", encoding="utf-8") as f:
+        digest = hashlib.sha1(content.encode("utf-8")).hexdigest()[:8]
+        final = f"{name[:-4]}-{digest}.svg"
+        names[name[:-4]] = final
+        with open(os.path.join(CARDS, final), "w", encoding="utf-8") as f:
             f.write(content)
-        print(f"cards/{name}: {len(content) // 1024} KB")
+        print(f"cards/{final}: {len(content) // 1024} KB")
+    readme = os.path.join(ROOT, "README.md")
+    with open(readme, encoding="utf-8") as f:
+        text = f.read()
+    pattern = r"\./cards/(hero|graph|htop|key-f[1-4])(?:-[0-9a-f]{8})?\.svg(?:\?v=[\w-]+)?"
+    text = re.sub(pattern, lambda m: f"./cards/{names[m.group(1)]}", text)
+    with open(readme, "w", encoding="utf-8") as f:
+        f.write(text)
 
 
 if __name__ == "__main__":
