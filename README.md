@@ -1,22 +1,22 @@
 <!-- Tarjetas generadas por scripts/render_readme_cards.py · se redibujan cada día con .github/workflows/readme-cards.yml -->
 
 <p align="center">
-  <img src="./cards/hero.svg" width="100%" alt="KevinOS arrancando: Kevin Villarroel, desarrollador en Madrid. 2º de DAM, Java, Python, Kotlin y SQL. Buscando prácticas, presencial o híbrido." />
+  <img src="./cards/hero.svg?v=20261120b" width="100%" alt="KevinOS arrancando: Kevin Villarroel, desarrollador en Madrid. 2º de DAM, Java, Python, Kotlin y SQL. Buscando prácticas, presencial o híbrido." />
 </p>
 
 <p align="center">
-  <img src="./cards/graph.svg" width="100%" alt="Gráfica de contribuciones del último año" />
+  <img src="./cards/graph.svg?v=20261120b" width="100%" alt="Gráfica de contribuciones del último año" />
 </p>
 
 <p align="center">
-  <img src="./cards/htop.svg" width="100%" alt="Panel htop: contribuciones por mes, racha actual, mejor racha y repos destacados" />
+  <img src="./cards/htop.svg?v=20261120b" width="100%" alt="Panel htop: contribuciones por mes, racha actual, mejor racha y repos destacados" />
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/kevin-rashid-villarroel-mejia-1b6b42257/"><img src="./cards/key-f1.svg" width="24%" alt="F1 LinkedIn" /></a>
-  <a href="mailto:kevinrashidvillarroelmejia@gmail.com"><img src="./cards/key-f2.svg" width="24%" alt="F2 Email" /></a>
-  <a href="https://github.com/kevinvillarroelmejia/job-market-analyzer"><img src="./cards/key-f3.svg" width="24%" alt="F3 Proyecto: Job Market Analyzer" /></a>
-  <a href="https://github.com/kevinvillarroelmejia?tab=repositories"><img src="./cards/key-f4.svg" width="24%" alt="F4 Repositorios" /></a>
+  <a href="https://www.linkedin.com/in/kevin-rashid-villarroel-mejia-1b6b42257/"><img src="./cards/key-f1.svg?v=20261120b" width="24%" alt="F1 LinkedIn" /></a>
+  <a href="mailto:kevinrashidvillarroelmejia@gmail.com"><img src="./cards/key-f2.svg?v=20261120b" width="24%" alt="F2 Email" /></a>
+  <a href="https://github.com/kevinvillarroelmejia/job-market-analyzer"><img src="./cards/key-f3.svg?v=20261120b" width="24%" alt="F3 Proyecto: Job Market Analyzer" /></a>
+  <a href="https://github.com/kevinvillarroelmejia?tab=repositories"><img src="./cards/key-f4.svg?v=20261120b" width="24%" alt="F4 Repositorios" /></a>
 </p>
 
 <details>
