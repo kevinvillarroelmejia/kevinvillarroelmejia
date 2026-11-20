@@ -28,7 +28,7 @@ W = 880
 # Datos sacados del README anterior del perfil (nada inventado).
 PROFILE = {
     "name": "Kevin Villarroel",
-    "role": "Desarrollador junior · Java · Python · SQL",
+    "role": "Desarrollador · Java · Python · SQL",
     "boot": [
         ("OK", "Montando /home/kevin", "Madrid, España"),
         ("OK", "Restaurando sesión", "SMR + 12 meses de soporte técnico"),
@@ -36,7 +36,7 @@ PROFILE = {
         ("OK", "Iniciando job-market-analyzer.service", "selenium + flask"),
         ("OK", "Configurando idiomas", "español nativo · inglés B1"),
         ("OK", "Compilando 2º de DAM", "acceso a datos · PSP · android"),
-        ("WAIT", "Buscando primer puesto junior", "prácticas o junior en Madrid"),
+        ("WAIT", "Buscando prácticas", "presencial o híbrido en Madrid"),
     ],
 }
 
