@@ -1,7 +1,7 @@
 <!-- Tarjetas generadas por scripts/render_readme_cards.py · se redibujan cada día con .github/workflows/readme-cards.yml -->
 
 <p align="center">
-  <img src="./cards/hero.svg" width="100%" alt="KevinOS arrancando: Kevin Villarroel, desarrollador en Madrid. 2º de DAM, Java, Python, Kotlin y SQL. Buscando prácticas o primer puesto como desarrollador." />
+  <img src="./cards/hero.svg" width="100%" alt="KevinOS arrancando: Kevin Villarroel, desarrollador en Madrid. 2º de DAM, Java, Python, Kotlin y SQL. Buscando prácticas, presencial o híbrido." />
 </p>
 
 <p align="center">
@@ -28,7 +28,7 @@ public class Kevin {
     private String ubicacion = "Madrid, España";
     private String estudios  = "2º de DAM (Desarrollo de Aplicaciones Multiplataforma)";
     private String antes     = "SMR + 12 meses como técnico informático";
-    private String objetivo  = "Primer puesto como desarrollador";
+    private String objetivo  = "Prácticas como desarrollador (presencial o híbrido)";
     private String idiomas   = "Español nativo · Inglés B1";
 
     public String getFoco() {

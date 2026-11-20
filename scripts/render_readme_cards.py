@@ -36,7 +36,7 @@ PROFILE = {
         ("OK", "Iniciando job-market-analyzer.service", "selenium + flask"),
         ("OK", "Configurando idiomas", "español nativo · inglés B1"),
         ("OK", "Compilando 2º de DAM", "acceso a datos · PSP · android"),
-        ("WAIT", "Buscando primer puesto", "prácticas o empleo en Madrid"),
+        ("WAIT", "Buscando prácticas", "presencial o híbrido en Madrid"),
     ],
 }
 
