@@ -5,11 +5,11 @@
 </p>
 
 <p align="center">
-  <img src="./cards/graph-a2cc4846.svg" width="100%" alt="Gráfica de contribuciones del último año" />
+  <img src="./cards/graph-0bfbb09b.svg" width="100%" alt="Gráfica de contribuciones del último año" />
 </p>
 
 <p align="center">
-  <img src="./cards/htop-a8f1a887.svg" width="100%" alt="Panel htop: contribuciones por mes, racha actual, mejor racha y repos destacados" />
+  <img src="./cards/htop-d6bc3d8d.svg" width="100%" alt="Panel htop: contribuciones por mes, racha actual, mejor racha y repos destacados" />
 </p>
 
 <p align="center">
